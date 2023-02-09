@@ -131,3 +131,48 @@ hr{
 .historialEdu .conocimientos ul li{
     list-style: none;
 }
+.expWork{
+    display: flex;
+    width: 880px;
+    align-items: center;
+    flex-direction: column;
+}
+.expWork h1{
+    font-size: 40px;
+    margin: 0;
+}
+.expWork p{
+    font-size: 1.4rem;
+}
+.expWork .experiences .exp-1 p,.expWork .experiences .exp-2 p{
+    font-size: 25px;
+}
+.expWork .experiences .exp-1 ul li,.expWork .experiences .exp-2 ul li{
+    font-size: 19px;
+}
+.contacto{
+    width: 100vw;
+    height: 300px;
+    background: rgba(73, 67, 67, 0.92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto .infoContacto h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.contacto .infoContacto span{
+    color: white;
+    font-size: 20px;
+}
+.contacto .infoContacto span a{
+    text-decoration: none;
+    color: white;
+
+    transition: all .5s;
+}
+.contacto .infoContacto span a:hover{
+    color: aqua;
+}
