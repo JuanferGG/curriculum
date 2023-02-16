@@ -41,16 +41,15 @@ nav ul li a{
 }
 .C-perfil{
     display: flex;
-    gap: 4rem;
     width: 100vw;
     justify-content: center;
-
-}
-.C-perfil .infoPersonal p{
-    font-size: 1.4rem;
+    gap: 4rem;
 }
 .C-perfil .infoPersonal{
     width: 700px;
+}
+.C-perfil .infoPersonal p{
+    font-size: 1.4rem;
 }
 .C-perfil img{
     width: 230px;
@@ -175,4 +174,10 @@ hr{
 }
 .contacto .infoContacto span a:hover{
     color: aqua;
+}
+
+/* ! DarkMode ! */
+
+.darkMode{
+    background: grey;
 }
